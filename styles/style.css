@@ -195,10 +195,6 @@
   align-items: center;
 }
 
-.button {
-  cursor: pointer;
-}
-
 .button__text {
   font-family: var(--accent-font-family), fantasy;
   font-size: 14px;
@@ -274,11 +270,12 @@
     inline-size: 341px;
   }
 }
-
+  
 .button {
   transition: box-shadow 0.3s ease;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .button:focus {
@@ -286,7 +283,7 @@
   box-shadow: 2px 2px 0 0 var( --accent-color);
 }
 
-.button:before{
+.button:before {
   content: '';
   inline-size: 100%;
   block-size: 100%;
@@ -338,7 +335,7 @@
 }
 
 .like-icon.is-liked .core {
-    transition: fill 0.3s;
+  transition: fill 0.3s;
   fill: var(--animation-fill-color); 
 }
 
