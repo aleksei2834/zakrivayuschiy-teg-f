@@ -6,4 +6,10 @@
   --head-font-weight: 700;
   --main-text-font-size: 18px;
   --border: 2px solid #000;
+  --background-image: ;
+  --background-color: #fff;
+  --accent-color: #000;
+  --contour-color: #000;
+  --animation-fill-color: #ff0000;
+  --core-color: #fff;
 }
