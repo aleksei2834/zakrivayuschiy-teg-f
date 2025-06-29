@@ -12,7 +12,7 @@
 
 @keyframes is-liked {
   from {
-    .heart {
+    .card__icon-button {
       transform: scale(1);
     }
   }
