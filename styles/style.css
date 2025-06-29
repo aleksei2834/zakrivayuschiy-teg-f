@@ -89,7 +89,7 @@
 
 
 
-.card:first-child .card__image-container .card__image{
+.card:first-child .card__image-container .card__image {
   filter: brightness(150%);
 }
 
@@ -159,7 +159,7 @@
   margin: 25px 25px 19px 0;
 }
 
-.card__icon-button svg{
+.card__icon-button svg {
   block-size: 40px;
 }
 
@@ -323,19 +323,9 @@
   fill: var(--accent-color);
 }
 
-.card__icon-button .like-icon .core {
-  transition: fill 0.3s 0.03s;
-  fill: transparent;
-}
-
 .card__icon-button:active .like-icon .core {
   transition: fill 0.3s;
   fill: var(--animation-fill-color);
-}
-
-.card__icon-button .like-icon .main-body {
-  transition: fill 0.3s;
-  fill: transparent;
 }
 
 .card__icon-button:active .like-icon .main-body {
