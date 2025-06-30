@@ -12,9 +12,7 @@
 
 @keyframes is-liked {
   from {
-    .card__icon-button {
-      transform: scale(1);
-    }
+    transform: scale(1);
   }
 
   to {
@@ -24,9 +22,7 @@
 
 @keyframes sparks {
   from {
-    .sparks {
-      opacity: 0;
-    }
+    opacity: 0;
   }
 
   to {

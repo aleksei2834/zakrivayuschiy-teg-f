@@ -163,13 +163,16 @@
   align-self: flex-end;
   display: flex;
   gap: 6px;
+  block-size: 38px;
   margin: 25px 25px 25px 0;
 }
 
 .card__icon-button {
-  block-size: 36px;
+  block-size: 100%;
   padding-block-start: 1px;
   cursor: pointer;
+  border: 2px solid transparent;
+  transition: border 0.3s ease;
 }
 
 .card__icon-button svg {
@@ -181,8 +184,7 @@
 }
 
 .card__icon-button:focus-visible {
-  transition: outline 0.3s ease;
-  outline: var(--border);
+  border: var(--border);
 }
 
 .card__like-button {
@@ -351,6 +353,7 @@
 
 .like-icon.is-liked .heart {
   animation: is-liked 0.3s 0.1s ease-in;
+  transform-origin: center;
 }
 
 .like-icon.is-liked .sparks {
